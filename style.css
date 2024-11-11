@@ -46,6 +46,14 @@ body {
   cursor: pointer;
   background-color: #eee;
 }
+
+.operator:hover{
+  background-color: bisque;
+}
+
+.Numbtn:hover{
+  background-color: bisque;
+}
 .buttons button:active {
   transform: scale(0.9);
 }
