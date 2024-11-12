@@ -27,3 +27,10 @@ buttons.forEach((button) => {
   //Button click listener calls calculate() with dataset value as argument.
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
+
+document.addEventListener('keydown', function(e) {
+  const allowedKeys = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '*', '/', '-', '+', '=', '.', '%', 'Backspace'];
+  if (!allowedKeys.includes(e.key)) {
+    e.preventDefault();  // Only allow specific keys.
+  }
+});
