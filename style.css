@@ -57,6 +57,9 @@ body {
 .buttons button:active {
   transform: scale(0.9);
 }
+.Numbtn:hover{
+  background-color: bisque;
+}
 .operator {
   color: #2f9fff;
 }
